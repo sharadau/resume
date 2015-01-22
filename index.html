@@ -2,104 +2,187 @@
 <html>
 <head lang="en">
     <meta charset="UTF-8">
-    <title>Synerzip Dashboard</title>
+    <title>Sharada Umarane</title>
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/bootstrap-theme.css">
+<!--    <link rel="stylesheet" href="css/font-awesome.min.css">-->
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/main.css">
 </head>
-<body>
-<div class="navbar navbar-default">
-    <div class="container-fluid">
+<body data-spy="scroll" data-target=".navbar-example">
+<nav class="navbar navbar-inverse navbar-fixed-top navbar-example">
+    <div class="container">
         <div class="navbar-header">
             <button type="button" class="navbar-toggle"
-                    data-toggle="colapse" data-target="#myNavBar">
+                    data-toggle="collapse" data-target="#myNavBar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="index.html">Synerzip</a>
+            <a class="navbar-brand" href="index.html">Sharada Umarane</a>
         </div>
         <div id="myNavBar" class="collapse navbar-collapse">
             <ul class="nav navbar-nav">
-                <li class="active"><a href="index.html">Dashboard</a></li>
-                <li><a href="organizations.html">Organizations</a></li>
-                <li><a href="projects.html">Projects</a></li>
-                <li><a href="employees.html">Employees</a></li>
+                <li class="active"><a href="#aboutme">About Me</a></li>
+                <li><a href="#tech">Technologies</a></li>
+                <li><a href="#projects">Projects</a></li>
+               <!-- <li><a href="#cert">Certifications</a></li>-->
+               <!-- <li><a href="#visa">Visa</a></li>-->
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a target="_blank" href="http://www.linkedin.com">Linked In</a></li>
+                <li><a target="_blank" href="https://twitter.com/SharadaVivekLon">Twitter</a></li>
             </ul>
         </div>
     </div>
+</nav>
+<div class="container">
+    <div class="jumbotron">
+        <img src="images/profile.jpg" class="img-responsive img-circle center-block img-cust" >
+        <div class="row">
+            <div class="col-xs-4 text-right"><a href="http://linkedin.in/in/sharadaumarane" target="_blank"><i class="fa fa-linkedin-square fa-2"></i></a></div>
+            <div class="col-xs-4"><h4 class="text-center">Sharada Umarane</h4></div>
+            <div class="col-xs-4 text-left"><a href="https://twitter.com/SharadaVivekLon" target="_blank"><i class="fa fa-twitter-square fa-2"></i></a></div>
+        </div>
+    </div>
+
+</div>
+<div class="container section" id="aboutme">
+    <div class="row">
+        <div class="col-md-12">
+            <h1><i class="glyphicon glyphicon-user"></i> About Me</h1>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-xs-12">
+            I am software developer. I work on web development using PHP. I have 9+ years of experience.
+            Currently I am playing the role of Leas software developer at Synerzip.
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-xs-12">
+        &nbsp;
+    </div>
 </div>
 
-<div class="container-fluid">
+<div class="container section" id="tech">
+    <div class="row">
+        <div class="col-md-12">
+            <h1><i class="fa fa-rocket"></i> Technologies</h1>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-xs-12 col-md-3">
+            <h4>Web</h4>
+            <code>PHP</code>
+            <code>JavaScript</code>
+            <code>HTML</code>
+            <code>XML</code>
+            <code>JQuery</code>
+            <code>AJAX</code>
+            <code>XAJAX</code>
+            <code>JQGrid</code>
+            <code>JQGraph</code>
+        </div>
+        <div class="col-xs-12 col-md-3">
+            <h4>Database/Cloud</h4>
+            <code>MySql</code>
+            <code>IBM DB2</code>
+            <code>PostgreySql</code>
+        </div>
+        <div class="col-xs-12 col-md-3">
+            <h4>Framesworks</h4>
+            <code>Zend Frameworks</code>
+            <code>Symfony</code>
+            <code>Magento</code>
+        </div>
+        <div class="col-xs-12 col-md-3">
+            <h4>Other Technologies</h4>
+            <code>Java</code>
+            <code>Documentum</code>
+            <code>Macrovision’s InstallAnywhere 8.0.1</code>
+        </div>
+    </div>
+    </div>
+    <div class="container section" id="projects">
+        <div class="row">
+            <div class="col-md-12">
+                <h1><i class="glyphicon glyphicon-user"></i> Projects</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12">
+                <h4> Prodagio(CLM)</h4>
+                <h5>Documentum, WDK</h5>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12">
+                <h4> Ettractions</h4>
+                <h5>PHP, 5.2/3, MySql 5, Apache 2.2.11, CentOS 5.5, WAMP 2.0, JqGrid, JQGraph, XAJAX, Smarty, Web services, XMLs</h5>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12">
+                <h4> Branded Online</h4>
+                <h5>Magento 1.3</h5>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12">
+                <h4> Clinion</h4>
+                <h5>PHP 5, MySql 5, HTML, Javascript, Mozilla Firefox3.0.x, JQuery, WAMP</h5>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12">
+                <h4> IvySite</h4>
+                <h5>PHP 5, MySql 5, HTML, Javascript, Mozilla Firefox3.0.x, JQuery, WAMP </h5>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12">
+                <h4> ClinKare</h4>
+                <h5>PHP 5, MySql 5, HTML, Javascript, Mozilla Firefox3.0.11, JQuery, XAMP 1.7.1</h5>
+            </div>
+        </div>
+
+<div class="row">
+    <div class="col-xs-12">
+        <h4> SmartChange</h4>
+        <h5>PHP 5 (using Object Oriented Programming concepts), MySql 5, Unix Shell, HTML, Ajax, Javascript, Internet Explorer 6, Mozilla 1.0.3</h5>
+    </div>
+</div>
+<div class="row">
+    <div class="col-xs-12">
+        <h4> Installer</h4>
+        <h5>Macrovision’s InstallAnywhere 8.0.1, Java, Apache Tomcat 5.5.13, SQL Server 2005, Oracle 10g Enterprise Edition, SUSE Linux 10.2, Windows 2000, Internet Explorer 6, Mozilla 1.0.3 </h5>
+    </div>
+</div>
+<div class="row">
+    <div class="col-xs-12">
+        <h4> ROJGAR WAHINI</h4>
+        <h5>PHP 4, IBM DB2, Unix Shell, HTML, Javascript, Internet Explorer 5</h5>
+    </div>
+</div>
+</div>
+<div class="row">
+        <div class="col-xs-12">
+            &nbsp;
+        </div>
+    </div>
+
+
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+</div>
+    <div class="container-fluid">
     <div class="row">
         <div class="col-sm-8">
-            <div class="panel-wrapper">
-                <div class="panel-title">
-                    Billable Vs Bench
-                </div>
-                <div class="panel-stage">
-                    <img class="img-responsive" src="images/area-chart.png">
-                </div>
-                <div class="panel-notes">
-                    On weekly basis
-                </div>
-            </div>
-        </div>
 
-<div class="col-sm-4">
-    <div class="panel-wrapper">
-        <div class="panel-title">
-            Billable Vs Bench
         </div>
-        <div class="panel-stage">
-            <img src="images/pie-chart.png" class="img-responsive">
-        </div>
-        <div class="panel-notes">
-            As of Today
-        </div>
-    </div>
-    </div>
-</div>
-    <div class="row">
-        <div class="col-sm-4">
-            <div class="panel-wrapper">
-                <div class="panel-title">
-                    PDX Project
-                </div>
-                <div class="panel-stage">
-                    <img src="images/bar-chart-1.png" class="img-responsive">
-                </div>
-                <div class="panel-notes">
-                    One of the most Active Projects
-                </div>
-            </div>
-        </div>
-    <div class="col-sm-4">
-        <div class="panel-wrapper">
-            <div class="panel-title">
-                QuickOffice Project
-            </div>
-            <div class="panel-stage">
-                <img src="images/bar-chart-2.png" class="img-responsive">
-            </div>
-            <div class="panel-notes">
-                One of the most Active Projects
-            </div>
-        </div>
-    </div>
-    <div class="col-sm-4">
-        <div class="panel-wrapper">
-            <div class="panel-title">
-                ECi Solutions Project
-            </div>
-            <div class="panel-stage">
-                <img src="images/bar-chart-3.png" class="img-responsive">
-            </div>
-            <div class="panel-notes">
-                One of the most Active Projects
-            </div>
-        </div>
-    </div>
 <div class="row">
     <div class="col-xs-12">
         &nbsp;
@@ -116,7 +199,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12 text-center">
-                <p>Build with <span class="glyphicon glyphicon-heart"></span> from the <a href="http://www.synerzip.com">Synerzip</a> team</p>
+                <p>Contact Me at sharada.umarane@synerzip.com</p>
             </div>
         </div>
     </div>
